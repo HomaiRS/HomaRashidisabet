@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="Homa Rashidisabet" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1>Homa Rashidisabet</h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- <li>                  <a href="Project.html">      Project       </a></li> -->
+          <li>                  <a href="vita.html">      Vita       </a></li>
+          <!-- <li>                  <a href="email.html">     Email      </a></li> -->
+          <li>                  <a href="Presentation.html">  Presentation     </a></li>
+          <li>                  <a href="research.html">  Research   </a></li>
+          <li class="selected"> <a href="index.html">     Home       </a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <div id="profilePic"></div>
+        <h1 style="font: normal 200% serif;"> Quick Access</h1>
+        <ul>
+          <!--  Google Scholar -->
+          <a href="https://scholar.google.com/citations?user=Q5hH2MMAAAAJ&hl=en" target="_blank">
+            <i style="font-size:35px;
+                      color:rgb(4, 39, 111);" class="ai ai-google-scholar-square ai-3x"></i>
+          </a>
+          <!--  LinkedIn -->
+          <a href="https://www.linkedin.com/in/homarashidisabet" target="_blank">
+              <i style="font-size:35px;
+                         margin-left:.5em;
+                         color:rgb(4, 39, 111);" class="fa">&#xf08c;</i>
+          </a>
+          <!--  GitHub -->
+          <!-- <a href="https://github.com/parshanpakiman" target="_blank">
+              <i style="font-size:35px;
+                        margin-left:.5em;
+                        color:rgb(4, 39, 111);" class="fa">&#xf092;</i>
+          </a>
+          <p></p> -->
+          <!--  You Tube -->
+          <!-- <a href="https://www.youtube.com/channel/UCg4z6qpdbEGlmIm0g-U2KkQ?view_as=subscriber" target="_blank">
+              <i style="font-size:35px;
+                        color:rgb(4, 39, 111);" class="fa">&#xf166;</i>
+          </a> -->
+          <!--  CV -->
+          <a href="vita.html">
+            <i style="font-size:35px;
+                      margin-left:.5em;
+                      color:rgb(4, 39, 111);" class="ai ai-cv-square"></i>
+          </a>
+          <!--  Email -->
+          <a href="mailto:hrashi4@uic.edu.com">
+                <i style="font-size:35px;
+                          margin-left:.5em;
+                          color:rgb(4, 39, 111);", class="fa fa-envelope-square"></i>
+          </a>
+
+        </ul>
+      </div>
+      <div id="content">
+        <p style="line-height: 1.5em;text-indent: 0px;">
+          <h1 style="font: normal 180% serif;"> About</h1>
+            I am a graduate student in the
+            <a href="https://https://bioe.uic.edu/" target="_blank">
+            Bioengineering
+          </a>
+            (BIOE) department at
+            the University of Illinois at Chicago (UIC).
+            Before joining the UIC, I received my Bachelor of
+            Science in Applied Mathematics from the School of
+            <a href="https://science.ut.ac.ir/en/web/math/home/" target="_blank">
+               Mathematics, Statistics, and Computer Science
+            </a>
+            at the
+            <a href="https://intsci.ut.ac.ir/en/home/" target="_blank">
+               University of Tehran.
+            </a>
+
+            My research advances digital health (digital phenotyping) and focuses on developing
+            machine learning methods for the prediction and early detection of
+            mental disorders using the real-world unobtrusive and passive sensor data
+            collected through connected devices (e.g., smartphones, wearables).
+            </p><br />
+            I'm best reached via Linkedin and email and always open to interesting
+            conversations and collaborations.
+        </p><br />
+
+        <h1 style="font: normal 180% serif;"> Research interests</h1>
+        <p style="line-height: 1em;text-indent: 0px;"></p>
+
+<!-- Research interests -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <title>jQuery Add Read More Link</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        	var maxLength = 1;
+        	$(".show-read-more").each(function(){
+        		var myStr = $(this).text();
+        		if($.trim(myStr).length > maxLength){
+        			var newStr = myStr.substring(0, maxLength);
+        			var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+        			$(this).empty().html(newStr);
+        			$(this).append(' <a href="javascript:void(0);" class="read-more">read more</a>');
+        			$(this).append('<span class="more-text">' + removedStr + '</span>');
+        		}
+        	});
+        	$(".read-more").click(function(){
+        		$(this).siblings(".more-text").contents().unwrap();
+        		$(this).remove();
+        	});
+        });
+        </script>
+        <style>
+            .show-read-more .more-text{
+                display: none;
+            }
+        </style>
+        </head>
+        <menue>
+        <body>
+
+          <li>
+            <bp> Digital phenotyping and biomarker discovery. </bp> <bp class="show-read-more"> Leveraging sensor data collected passively and unobtrusively through connected
+            technologies (e.g., smartphones, wearables) for continuous monitoring of patients in their
+            naturalistic environments and their everyday living. Through a holistic systems biology approach, analyzing the multimodal high temporal resolution
+            timeseries data derived from multiple connected devices to build digital phenotypes and/or discover digital
+            biomarkers of the behaviorome, with a particular emphasis on the early detection, diagnosis, and
+            prediction of neuropsychiatric disorders. Clinically relevant feature engineering via statistical methods.
+              </bp>
+            </li>
+
+            <li>
+              <bp> Multi-variate time-series anomaly detection. </bp> <bp class="show-read-more">
+                  Developing models that can incorporate data streams that are multimodal and often heterogeneous
+                  in both unit and scale senosr data. Developing deep learning-based methods to create personalized
+                  models that are capable of detecting user's anamolous behaviour when their behavior deviates from
+                  their normal pattern using the historical information. Bipolar disorders + depression.
+                </bp>
+            </li>
+
+            <li>
+              <bp> Providing real-time feedback to patients with neuropsychiatric disorders. </bp> <bp class="show-read-more">
+                    Developing predictive models.... to create personalized models that are capable of
+                    detecting user's anamolous behaviour when their behavior deviates from their normal pattern
+                    using the historical information.
+              </bp>
+            </li>
+
+            <li>
+              <bp> Developing machine learning methods for health-focused problems. </bp>
+              </bp>
+            </li>
+
+        </body>
+        </menue>
+        </html>
+
+      </div>
+      <h1 style="
+                text-align: left;
+                float: right;
+                font: normal 200% serif;
+                width: 620px;">Recent News</h1>
+      <div id="content_event" class="scrollable">
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>April, 2020:</b>
+            Our paper titled <i>A systems biology approach to the digital behaviorome.</i> was e-published
+            in the Elsevier Journal of Current Opinion in Systems Biology.
+            <a href="https://doi.org/10.1093/jamia/ocaa057"
+               target="_blank"
+               class="read_more"> Link to the paper.
+            </a>
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>May, 2020:</b>
+            I joined
+            <a href="https://www.janssen.com/us/"
+               target="_blank"
+               class="read_more"> The Janssen Pharmaceutical Companies of Johnson and Johnson
+            </a>
+            as an <i>R&D Data Scientist Intern </i> to develope the deep-lerning-based anomaly detection
+            methods for predicting depression relapse using sensor data collected unobtrusively through
+            acti-watch in-the-wild as well as developing algorithms for engineering non-trivial sleep/awake
+            period features.
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>May, 2020:</b>
+            We e-presented our poster titled <i> Characterizing Passively Collected Real-World Keyboard Dynamics in
+              Mood Disorders as a Function of Age and Time-of-Day</i> at the 2020 Society of Biological Psychiatry (SOBP).
+              <i>(e-presented the poster due to Covid-19 pandemic)</i>.
+            <a href="https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30510-2/abstract"
+               target="_blank"
+               class="read_more"> Link to the poster.
+            </a>
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>July, 2020:</b>
+            Our paper titled <i>Effects of mood and aging on keystroke dynamics metadata and their diurnal
+              patterns in a large open-science sample: A BiAffect iOS study</i> was e-published in the Journal
+              of the American Medical Informatics Association (JAMIA), Volume 27, Issue 7, Pages 1007–1018.
+            <a href="https://doi.org/10.1093/jamia/ocaa057"
+               target="_blank"
+               class="read_more"> Link to the paper.
+            </a>
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>December, 2019:</b>
+            We presented our poster titled <i>Diurnal Patterns as Evidenced by Over Eleven Million Smartphone
+              Keystrokes During Daily Usage: An iOS BiAffect Study</i> at the ACNP 58th Annual Meeting: Poster
+              Session II. Neuropsychopharmacol. 44, 230–384 (2019). (<i>Poster T65</i>).
+            <a href="https://doi.org/10.1038/s41386-019-0546-x"
+               target="_blank"
+               class="read_more"> Link to the poster.
+            </a>
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>September, 2019:</b>
+            We presented our poster titled <i>Diurnal Patterns as Evidenced by Over Eleven Million Smartphone
+              Keystrokes During Daily Usage: An iOS BiAffect Study</i> at the 11th Annual National Network of Depression
+              Centers Conference; 2019 Sept 24-25; Ann Arbor, MI. (<i>Poster number 45</i>).
+            <a href="https://nndc.org/wp-content/uploads/2019/09/2019-NNDC-Conference-Program.pdf"
+               target="_blank"
+               class="read_more"> Link to the poster.
+            </a>
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>May, 2019:</b>
+            We presented our poster titled <i>Complexity of keyboard dynamics in bipolar disorder: A BiAffect
+              digital phenotyping study</i> at the 2019 Society of Biological Psychiatry (SOBP). Chicago, IL.
+            <br/><br/>
+        </p>
+
+        <p style="line-height: 1.2em;text-indent: 0px;">
+            <b>January, 2019:</b>
+            I joined the
+            <a href="https://www.biaffect.com"
+               target="_blank"
+               class="read_more"> BiAffect
+            </a>
+            team and the
+            <a href="http://brain.uic.edu"
+               target="_blank"
+               class="read_more"> CoNECt Lab
+            </a>
+            at the
+            <a href="https://www.uic.edu"
+               target="_blank"
+               class="read_more"> University of Illinois at Chicago.
+            </a>
+            <br/><br/>
+        </p>
+
+        </div>
+
+  </div>
+</body>
+</html>
