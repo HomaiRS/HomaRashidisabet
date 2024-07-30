@@ -1,0 +1,20 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore csv files
+*.csv
+
+# Ignore compiled files
+*.o
+*.so
+*.dll
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
